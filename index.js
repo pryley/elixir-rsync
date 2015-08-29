@@ -25,7 +25,8 @@ Elixir.extend( 'rsync', function( src, output, args )
 
         return gulp
             .src( '' )
-            .pipe( shell( command ) );
+            .pipe( shell( command ) )
+            .pipe( new Elixir.Notification( 'Rsync completed!' ) );
     })
     .watch( paths.src.path )
     .ignore( paths.output.path );
