@@ -23,6 +23,12 @@ Elixir.extend( 'rsync', function( src, output, args )
     {
         var command = 'rsync ' + args + ' ' + src + ' ' + paths.output.path;
 
+        this.log( paths.src );
+
+        Elixir.Log
+            .heading( 'Syncing To...')
+            .files( paths.output.path );
+
         return gulp
             .src( '' )
             .pipe( shell( command ) )
