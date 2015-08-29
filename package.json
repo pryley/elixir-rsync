@@ -1,0 +1,30 @@
+{
+  "name": "elixir-rsync",
+  "version": "1.0.0",
+  "description": "Elixir Rsync Extension",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/geminilabs/elixir-rsync.git"
+  },
+  "keywords": [
+    "elixir",
+    "rsync",
+    "gulp"
+  ],
+  "author": {
+    "name": "Paul Ryley",
+    "email": "paul@geminilabs.io"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/geminilabs/elixir-rsync/issues"
+  },
+  "homepage": "https://github.com/geminilabs/elixir-rsync",
+  "dependencies": {
+    "gulp-shell": "^0.4.2"
+  }
+}
