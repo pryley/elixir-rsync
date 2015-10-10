@@ -13,6 +13,8 @@ $ npm install elixir-rsync --save-dev
 ```js
 var elixir = require( 'laravel-elixir' );
 
+require( 'elixir-rsync' );
+
 elixir( function( mix )
 {
     mix.rsync( 'theme/src/', 'public/theme' );
@@ -23,6 +25,8 @@ elixir( function( mix )
 
 ```js
 var elixir = require( 'laravel-elixir' );
+
+require( 'elixir-rsync' );
 
 elixir( function( mix )
 {
